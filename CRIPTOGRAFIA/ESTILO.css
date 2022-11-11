@@ -1,0 +1,106 @@
+*{ padding: 0;
+    margin: 0;}
+
+  body{
+    background-color: rgb(27, 27, 27);
+  }
+
+  .letras{
+    color: aliceblue;
+  }
+    
+  .img123{
+    width: 10%;
+  }
+  .titulo {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  form {
+    text-align: center;
+    vertical-align: top;
+    margin-top: 10px;
+    padding: 30px 90px;
+  }
+
+  .grupo,
+  .acao {
+    margin-top: 20px;
+  }
+  
+  .grupo label {
+    display: block;
+  }
+  
+  label {
+    font-size: 20px;
+  }
+  
+  #mensagem {
+    margin-top: 15px;
+    width: 30%;
+    padding: 5px 15px;
+    border-radius: 3px;
+  }
+  
+  select {
+    border-radius: 3px;
+    font-size: 17px;
+    margin-top: 15px;
+  }
+
+  #incremento {
+    border-radius: 3px;
+    margin-top: 15px;
+    width: 20%;
+    padding: 4px 15px;
+  }
+  
+  #codificar,
+  #decodificar {
+    margin-top: 12px;
+  }
+  
+  button {
+    margin-top: 15px;
+    border-radius: 3px;
+    padding: 5px 15px;
+  }
+  
+  #resultado { 
+    color: rgb(0, 255, 242);
+    text-align: center;
+    vertical-align: top;
+    margin-top: 2px;
+    font-size: 20px;
+  }
+
+  .rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 50px;
+}
+
+
+.icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color:rgb(255, 255, 255);
+}
+
+.icons ion-icon:hover{
+    color: rgb(0, 0, 0);
+}
+  
+  @media only screen and (max-width: 600px) {
+    header {
+      color: lightblue;
+    }
+  
+    body {
+      background-color: rgb(27, 27, 27);
+    }
+  }
